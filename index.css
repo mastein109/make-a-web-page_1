@@ -1,0 +1,46 @@
+body {
+	padding: 30px 20px;
+	font-family: "arial";
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #00ccff;
+	background-color: white;
+	text-align: center; 
+	border-radius: 30px;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 28px;
+	margin: 10px;
+}
+
+
+div {
+	padding: 10px 10px;
+}
+
+.lesson {
+	background-color: #0099ff;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.concept {
+	background-color: #00ccff;
+	color: white;
+	padding: 5px 5px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+b {
+	text-transform: uppercase;
+}
+
+.concept-description {
+	margin: 15px;
+}

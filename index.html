@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Intro to Programming</title>
+   
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+  <body>
+  	<div class="lesson">
+    	<h1>Lesson 1: The Basics of Web and HTML</h1>
+
+			<div class="concept">
+			<h2>World Wide Web</h2>
+			<p class="concept-description">The web includes many pieces that communicate with each other. A web page is a text document written in a language known as <b>HTML</b>. Web browsers read documents, interpret, and display them.</p>
+			</div>
+
+			<div class="concept">
+			<h2>HTML</h2>
+			<p class="concept-description">HTML stands for HyperText Markup Language and is the basis for everything on the web. HTML includes text content, markup, refereences to other documents, and links to other pages. For example: This is the link to the <a href="http://www.udacity.com">Udacity Homepage</a>!</p>
+			</div>
+
+			<div class="concept">
+			<h2>Vocabulary</h2>
+			<p class="concept-description">Although it is not essential for programmers to memorize every little thing, there are a few terms that are necessary to know.<br><b>Tag:</b> A tag is contained with brackets and usually consist of both an opening and closing tag. Tags that do not include content and do not include a closing tag are called "void tags." An example of a void tag is the image element.<br><b>Element:</b> An element consists of everything within a set of opening and closing tags. An example of one element is the <em>italics</em> element.<br><b>Attribute:</b> An attribute is a property of an HTML tag. For example, when I created the link to the Udacity homepage, I used the href attribute of an anchor tag. </p>
+			</div>
+
+			<div class="concept">
+			<h2>Inline v Block</h2>
+			<p class="concept-description">Certain elements are within text and are either applied to a specific line or create a new line. These are referred to as inline elements. Contrastly, elements that create and invisible box around content are considered block elements. For example, there are two different elements that create whitespace; break and paragraoph. Break tags insert a new line between the text, while paragraph creates a whole block of text that allows for attributes. For example, the <em>italics</em> element is considered an inline element.</p>
+			</div>
+
+			<div class="concept">
+			<h2>HTML Documents</h2>
+			<p class="concept-description">HTML documents provide a simple layout for a webpage. The layout contains tags, such as html, head, title and body. The head contains the title and styling like CSS and JS. Further, the body contains the main content of the entire webpage.</p>
+			</div>
+	</div>
+
+	<div class="lesson">    
+    	<h1>Lesson 2: Creating a Structured Document with HTML</h1>
+
+			<div class="concept">
+			<h2>Making A Webpage</h2>
+			<p class="concept-description">HTML and CSS are both <em>languages</em>. However, HTML controls the <b>structure</b> of a webpage, while CSS controls the <b>style</b>. The structure of a webpage should be broken down into boxes or in HTML terms, <em>div</em> tags.
+			<br>A <b>Document Object Model</b> or "DOM" referes to the tree-like structure of a page.</p>
+			</div>
+
+			<div class="concept">
+			<h2>Common Errors in HTML and CSS</h2>
+			<p class="concept-description"><b>Check for syntax errors:</b> Some of the most common and tedious errors made by programmers are typos and mistakes, such as closing an HTML element. Often times, it is easy to go back and fix the mistakes, but when it comes to large projects with extensive amounts of code, it is best to use a validation tool. The W3C CSS validator is best for these kinds of errors because the program will tell you exactly where your mistakes are located. In addition, you can use a linting tool, such as CSS Lint, which will help find errors. <br><b>Cross-browser Issues:</b> Often times, your site looks fine in one browser, but there's problems in another. In order to avoid this you should always use a CSS reset, such as normalize. Normalize will minimize inconsistencies between browsers and make them uniform. Since HTML and CSS are always changing and improving, it is important to make sure HTML elements and CSS properties are supported. A good site to check on support for a certain element of property is caniuse.com.<br><b>Developer Tools:</b> In the elements panel of the Chrome Developer Tools, you will find a computed tab. At the top of this tab, there is a box model diagram that is very important when it comes to how much space an element is occupying. The space is broken down into border, margin, padding, and content.</p>
+			</div>
+	</div>
+			
+	<div class="lesson">
+		<h1>Lesson 3: Adding CSS Style</h1>
+
+			<div class="concept">
+			<h2>Cascading Style Sheets</h2>
+			<p class="concept-description">CSS or the style part of HTML contains a key feature of <b>inheritance</b>. Inheritance relies on the ancestor-descendant relationship, which makes it possible for coders to avoid repetition. Further, CSS applies the most specific rule to every element, including its descendents. Descendents inherit <em>text-related properties</em>, but <b>NOT</b> <em>box-related properties</em>.</p>
+			</div>
+
+			<div class="concept">
+			<h2>How Does CSS "control" HTML?</h2>
+			<p class="concept-description">CSS utilizes a <b>selector</b> to apply rules to elements. Further, a <b>class</b> is then defined within a selector to a more specific class within an element.</p>
+			</div>
+
+			<div class="concept">
+			<h2>Including Style</h2>
+			<p class="concept-description">There are three different options when choosing where to include your style code. <br>1. Write CSS in the head section of HTML. <br>2. Link your HTML to separate CSS file. This is the most organized way to include your style in your HTML and avoid repetition*. <br>3. Write style inline with HTML. This is a bad idea because it most often leads to a lot of repeated code.</p>
+
+			<p class="concept description">*Repetition: In software engineering, it is essential to not repeat yourself. If repetition is avoided in code, a modification of any single element does not cause a change in in multiple places of other unrelated elements.</p>
+			</div>
+
+			<div class="concept">
+			<h2>The Box Model</h2>
+			<p class="concept-description">The box model helps coders to breakdown the web page and style more efficiently. The different boxes include margin, border, padding, and content. The width of the border, padding, and content make up the element width.</p>
+			</div>
+	</div>
+
+  </body>
+</html>
